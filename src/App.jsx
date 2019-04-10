@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import GlobalStyles from 'Utils/globalStyles.css';
+
+import NavBar from 'Containers/Navbar';
+
 const App = () => {
-	return <div>Hello World!</div>;
+	return (
+		<>
+			<GlobalStyles />
+			<NavBar />
+		</>
+	);
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
