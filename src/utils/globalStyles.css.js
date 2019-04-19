@@ -35,9 +35,14 @@ const GlobalStyle = createGlobalStyle`
 		margin-right: auto;
 		margin-left: auto;
 		width: 100%;
-		max-width: 960px;
+		max-width: 738px;
 		padding-right: 16px;
 		padding-left: 16px;
+	}
+
+	.editing{
+		background: ${backgroundColor};
+		border-bottom: 2px solid rgba(0,0,0,0.12);
 	}
 `;
 

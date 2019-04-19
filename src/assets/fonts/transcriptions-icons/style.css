@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'transcriptions';
-  src:  url('transcriptions.eot?ljk487');
-  src:  url('transcriptions.eot?ljk487#iefix') format('embedded-opentype'),
-    url('transcriptions.ttf?ljk487') format('truetype'),
-    url('transcriptions.woff?ljk487') format('woff'),
-    url('transcriptions.svg?ljk487#transcriptions') format('svg');
+  src:  url('transcriptions.eot?9prav3');
+  src:  url('transcriptions.eot?9prav3#iefix') format('embedded-opentype'),
+    url('transcriptions.ttf?9prav3') format('truetype'),
+    url('transcriptions.woff?9prav3') format('woff'),
+    url('transcriptions.svg?9prav3#transcriptions') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-check:before {
+  content: "\e909";
+  color: #fff;
+}
 .icon-add-row .path1:before {
   content: "\e900";
   color: rgb(208, 212, 218);
