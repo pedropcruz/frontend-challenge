@@ -7,20 +7,20 @@ const {
 } = variables;
 
 const ItemStyle = styled.li`
-	&.todolist {
-		padding: 1.5rem;
-		border-top: 1px solid ${borderColor};
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		&:first-of-type {
-			border: 0;
+	padding: 1.5rem;
+	border-top: 1px solid ${borderColor};
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	&:first-of-type {
+		border: 0;
+	}
+	&:hover {
+		button {
+			display: block;
 		}
-		&:hover {
-			button {
-				display: block;
-			}
-		}
+	}
+	.todolist {
 		&-header {
 			display: flex;
 			align-items: center;
@@ -65,7 +65,7 @@ const ItemStyle = styled.li`
 				font-size: 1.625rem;
 			}
 		}
-		button {
+		&-delete {
 			display: none;
 			padding: 0;
 			i {

@@ -1,70 +1,71 @@
 @font-face {
-  font-family: 'transcriptions';
-  src:  url('transcriptions.eot?9prav3');
-  src:  url('transcriptions.eot?9prav3#iefix') format('embedded-opentype'),
-    url('transcriptions.ttf?9prav3') format('truetype'),
-    url('transcriptions.woff?9prav3') format('woff'),
-    url('transcriptions.svg?9prav3#transcriptions') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'transcriptions';
+	src: url('transcriptions.eot?9prav3');
+	src: url('transcriptions.eot?9prav3#iefix') format('embedded-opentype'),
+		url('transcriptions.ttf?9prav3') format('truetype'),
+		url('transcriptions.woff?9prav3') format('woff'),
+		url('transcriptions.svg?9prav3#transcriptions') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'transcriptions' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+[class^='icon-'],
+[class*=' icon-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'transcriptions' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-check:before {
-  content: "\e909";
-  color: #fff;
+	content: '\e909';
+	color: #fff;
 }
 .icon-add-row .path1:before {
-  content: "\e900";
-  color: rgb(208, 212, 218);
+	content: '\e900';
+	color: rgb(208, 212, 218);
 }
 .icon-add-row .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+	content: '\e901';
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
 }
 .icon-delete:before {
-  content: "\e902";
-  color: #bfc4ce;
+	content: '\e902';
+	color: #bfc4ce;
 }
 .icon-fetch:before {
-  content: "\e903";
-  color: #8f97a8;
+	content: '\e903';
+	color: #8f97a8;
 }
 .icon-upload:before {
-  content: "\e904";
-  color: #8f97a8;
+	content: '\e904';
+	color: #8f97a8;
 }
 .icon-person .path1:before {
-  content: "\e905";
-  color: rgb(52, 165, 255);
+	content: '\e905';
+	color: rgb(52, 165, 255);
 }
 .icon-person .path2:before {
-  content: "\e906";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+	content: '\e906';
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
 }
 .icon-person .path3:before {
-  content: "\e907";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+	content: '\e907';
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
 }
 .icon-person .path4:before {
-  content: "\e908";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+	content: '\e908';
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
 }

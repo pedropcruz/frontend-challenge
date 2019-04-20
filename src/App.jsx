@@ -1,16 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import rootReducer from 'Redux/reducers';
+import configureStore from 'Redux/store';
 
 import GlobalStyles from 'Utils/globalStyles.css';
 
 import NavBar from 'Containers/Navbar';
-import TodoItem from 'Containers/TodoItem';
+import TodoList from 'Containers/TodoList';
 import AddTodo from 'Containers/AddTodo';
 
-const store = createStore(rootReducer);
+const store = configureStore();
 
 const root = document.getElementById('root');
 
@@ -20,7 +19,7 @@ const App = () => {
 			<GlobalStyles />
 			<NavBar />
 			<div className="wrapper">
-				<TodoItem />
+				<TodoList />
 				<AddTodo />
 			</div>
 		</>

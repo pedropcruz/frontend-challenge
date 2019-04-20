@@ -7,6 +7,7 @@
 		"@svgr/webpack": "4.1.0",
 		"bfj": "6.1.1",
 		"case-sensitive-paths-webpack-plugin": "2.2.0",
+		"cross-fetch": "^3.0.2",
 		"css-loader": "1.0.0",
 		"dotenv": "6.0.0",
 		"dotenv-expand": "4.2.0",
@@ -28,6 +29,7 @@
 		"react-dom": "^16.8.6",
 		"react-redux": "^7.0.2",
 		"redux": "^4.0.1",
+		"redux-thunk": "^2.3.0",
 		"resolve": "1.10.0",
 		"sass-loader": "7.1.0",
 		"style-loader": "0.23.1",
@@ -71,7 +73,7 @@
 	},
 	"lint-staged": {
 		"src/**/*.jsx": [
-			"cross-env NODE_ENV=development && eslint --fix",
+			"cross-env NODE_ENV=development eslint --fix",
 			"prettier-eslint --write",
 			"git add"
 		]
